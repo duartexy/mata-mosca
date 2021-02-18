@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('img/imagens/bg.jpg') no-repeat;
+    background-color: rgb(255, 175, 109);
+}
+
+.mosquito1 {
+    width: 50px;
+    height: 50px;
+}
+
+.mosquito2 {
+    width: 70px;
+    height: 70px;
+}
+
+.mosquito3 {
+    width: 90px;
+    height: 90px;
+}
+
+.ladoA {
+    transform: scaleX(1);
+}
+
+.ladoB {
+    transform: scaleX(-1);
+}
+
+.painel {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    bottom: 0;
+    border-top: 1px solid #fff;
+    border-radius: 8px;
+    background: #fff;
+    opacity: 0.7;
+}
+
+.vida {
+    float: left;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+
+.cronometro {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    
+    margin-top: 10px;
+    margin-left: 15px;
+}
